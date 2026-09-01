@@ -75,7 +75,10 @@ export async function generateMetadata({
     },
     robots: { index: true, follow: true },
     icons: {
-      icon: [{ url: "/favicon.svg", type: "image/svg+xml" }],
+      icon: [
+        { url: "/favicon.ico", sizes: "32x32" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
       apple: [{ url: "/apple-icon", sizes: "180x180", type: "image/png" }],
     },
     other: {
