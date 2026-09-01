@@ -1,9 +1,19 @@
+function publicEnv(name: string, fallback = "") {
+  const value = process.env[name]?.trim();
+  return value || fallback;
+}
+
+const vercelUrl = process.env.VERCEL_URL?.trim();
+
 export const site = {
   name: "AzexAI Systems",
   platformName: "AzexAI VSM",
-  platformUrl: process.env.NEXT_PUBLIC_VSM_URL ?? "",
-  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "contact@azexai.systems",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://azexai.systems",
+  platformUrl: publicEnv("NEXT_PUBLIC_VSM_URL"),
+  email: publicEnv("NEXT_PUBLIC_CONTACT_EMAIL", "contact@azexai.systems"),
+  url: publicEnv(
+    "NEXT_PUBLIC_SITE_URL",
+    vercelUrl ? `https://${vercelUrl}` : "https://azexai.systems",
+  ),
 } as const;
 
 export const plusCodes = [
