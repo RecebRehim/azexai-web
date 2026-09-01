@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "siteName": "AzexAI Systems",
+    "title": "AzexAI Systems — Verifiable analytical results",
+    "description": "AzexAI Systems created and operates AzexAI VSM, a platform that turns complex data about an assessed object into structured, verifiable and reproducible analytical results.",
+    "ogTitle": "AzexAI Systems",
+    "ogDescription": "From evidence to result. From result to understanding."
+  },
+  "nav": {
+    "home": "Home",
+    "vsm": "AzexAI VSM",
+    "products": "Products",
+    "technology": "Technology",
+    "iit3d": "IIT 3D",
+    "trust": "Trust",
+    "research": "Research",
+    "company": "Company",
+    "leadership": "Leadership",
+    "partnerships": "Partnerships",
+    "insights": "Insights",
+    "support": "Support",
+    "contact": "Contact",
+    "index": "AzexAI Index",
+    "institutional": "Institutional Index",
+    "plus": "AzexAI Plus",
+    "access": "Access AzexAI VSM",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "common": {
+    "exploreVsm": "Explore AzexAI VSM",
+    "accessPlatform": "Access Platform",
+    "exploreIndex": "Explore AzexAI Index",
+    "exploreInstitutional": "Explore Institutional Index",
+    "explorePlus": "Explore AzexAI Plus",
+    "aboutCompany": "About AzexAI Systems",
+    "readMore": "Continue",
+    "primaryAction": "Access AzexAI VSM",
+    "requestAccess": "Request platform access",
+    "humanSupport": "Request human assistance",
+    "partnershipInquiry": "Partnership inquiry",
+    "generalContact": "General contact",
+    "contactSupport": "Contact support",
+    "protectedNote": "Public-safe information. Formulas, weights and internal methodology are not disclosed.",
+    "platformSeparate": "AzexAI VSM operates on a separate platform domain and is not merged into the corporate website."
+  },
+  "chain": {
+    "uncertainty": "Uncertainty",
+    "evidence": "Evidence",
+    "structure": "Structure",
+    "result": "Result",
+    "understanding": "Understanding"
+  },
+  "footer": {
+    "tagline": "From evidence to result. From result to understanding.",
+    "platform": "Platform",
+    "products": "Products",
+    "company": "Company",
+    "contact": "Contact",
+    "partnership": "Partnerships",
+    "human": "Human support",
+    "rights": "AzexAI Systems. All rights reserved.",
+    "methodology": "The website explains purpose and principles. It does not expose formulas, weights, internal variables or reconstructable calculation rules."
+  },
+  "home": {
+    "kicker": "AzexAI Systems",
+    "headline": "AzexAI VSM — a platform for verifiable analytical results.",
+    "lede": "AzexAI Systems created the technology and operates AzexAI VSM, a platform designed to transform complex data about an assessed object into structured, verifiable and reproducible analytical results.",
+    "statementA": "From evidence to result. From result to understanding.",
+    "statementB": "Not just data. An analytical state.",
+    "body": "AzexAI VSM does not treat an assessed object as a collection of documents and claims. It structures only what can be supported and turns it into a verifiable analytical state within the framework of the relevant product.",
+    "principlesTitle": "How a result is formed",
+    "principles": [
+      "Evidence-based input",
+      "Structured analytical model",
+      "Fixed result",
+      "Controlled explanation",
+      "Protected methodology"
+    ],
+    "boundaryKicker": "The boundary of AI",
+    "boundaryTitle": "AI may help explain the result, but it has no authority to invent it.",
+    "boundaryBody": "What is not verified does not become a fact simply because AI can fill the gap. AzexAI shows not everything AI can infer, but only what the system has grounds to assert.",
+    "productsTitle": "Products within AzexAI VSM",
+    "trustTitle": "Why the result can be trusted",
+    "trustItems": [
+      "Verifiable input basis",
+      "Controlled calculation logic",
+      "Reproducibility",
+      "Traceability",
+      "Separation of result and explanation"
+    ],
+    "iitTitle": "IIT 3D",
+    "iitLede": "IIT 3D is an explorable analytical space of the verified structure of the result.",
+    "iitBody": "For Institutional Index, IIT 3D moves the result from a sequence of pages into a digital environment where structure, dimensions, constraints and supported relationships can be explored.",
+    "scienceTitle": "Scientific and technical foundation",
+    "scienceBody": "AzexAI VSM is built on a proprietary scientific and technical methodology centered on structure, verifiability, reproducibility, fixed results and controlled interpretation.",
+    "companyTitle": "AzexAI Systems",
+    "companyBody": "AzexAI Systems is the creator of the technology and operator of the AzexAI VSM platform. The company develops the product, methodology, research, trust framework and institutional applications within one strategic system."
+  },
+  "vsm": {
+    "kicker": "AzexAI VSM",
+    "title": "Verifiable Structured Model",
+    "headline": "From complex information to a verifiable analytical result.",
+    "lede": "AzexAI VSM is not a free-form answer generator. It is an analytical platform that separates evidence, data structure, calculation, result and subsequent explanation.",
+    "statement": "AzexAI turns data about an object not into an AI opinion, but into a verifiable analytical state.",
+    "doesTitle": "What AzexAI VSM does",
+    "does": [
+      "Structures data and evidence",
+      "Does not turn unsupported information into fact",
+      "Applies the calculation logic of the relevant product",
+      "Forms a fixed and reproducible result",
+      "Presents the result through reports, analytical models and controlled explanation"
+    ],
+    "aiTitle": "AI does not own the result",
+    "aiLede": "What is not verified does not become true simply because AI can fill the gap.",
+    "aiBody": "AI may support information processing and explanation of an already formed result, but it must not create unsupported facts or a new calculated result.",
+    "modelTitle": "Analytical model of the assessed object",
+    "modelBody": "The assessed object moves from a collection of fragmented documents into a structured analytical model of supported characteristics, constraints, dimensions and admissible relationships.",
+    "orderTitle": "Result first. Explanation second.",
+    "orderBody": "Interpretation, visualization and presentation are not used to recalculate or arbitrarily alter the result.",
+    "accessTitle": "Platform access",
+    "accessBody": "AzexAI VSM operates on a separate platform domain and is not merged into the corporate website."
+  },
+  "products": {
+    "kicker": "Products",
+    "headline": "One methodological discipline. Independent analytical products.",
+    "lede": "AzexAI products are not different names for the same result. Each product has its own purpose, analytical logic and form of result.",
+    "indexName": "AzexAI Index",
+    "indexLede": "Structured index assessment and clear analytical presentation of the result.",
+    "indexPoints": [
+      "Index Standard — a complete high-quality baseline result",
+      "Index Premium — deeper analytical presentation within the same result family",
+      "Greater depth of presentation does not create new mathematics or a new result"
+    ],
+    "instName": "Institutional Index",
+    "instLede": "An independent product for professional and institutional assessment scenarios. It is not a Premium version of the ordinary Index.",
+    "instPoints": [
+      "Independent institutional result",
+      "Four analytical dimensions",
+      "Institutional Report",
+      "Digital Analytical Model",
+      "IIT 3D — where included by package",
+      "Enhanced evidence and traceability discipline"
+    ],
+    "instNote": "Specific sector coverage is published only after separate confirmation.",
+    "plusName": "AzexAI Plus",
+    "plusLede": "Seven independent specialized analytical services."
+  },
+  "index": {
+    "kicker": "AzexAI Index",
+    "headline": "Structured index assessment and a verifiable result.",
+    "lede": "AzexAI Index provides structured index assessment and a clear analytical presentation of the result.",
+    "standardTitle": "Index Standard",
+    "standardBody": "A complete high-quality baseline result.",
+    "premiumTitle": "Index Premium",
+    "premiumBody": "Deeper analytical presentation within the same result family.",
+    "note": "Greater depth of presentation does not create new mathematics or a new result."
+  },
+  "institutional": {
+    "kicker": "Institutional Index",
+    "label": "Institutional analytics",
+    "headline": "Beyond the report: an explorable analytical model of the result.",
+    "lede": "Institutional Index is an independent AzexAI VSM product for professional and institutional assessment scenarios.",
+    "flow": "Result → 4 dimensions → Digital Analytical Model → IIT 3D → Report / Evidence / Traceability",
+    "damTitle": "Digital Analytical Model",
+    "damLede": "A report records the conclusion. A Digital Analytical Model lets you explore its structure.",
+    "damBody": "The Digital Analytical Model preserves the result, analytical dimensions, supported characteristics, constraints and relationships in one digital analytical environment.",
+    "iitTitle": "IIT 3D",
+    "iitLede": "IIT 3D is the space of the verified structure of the result.",
+    "iitBody": "IIT 3D moves the result from a sequence of pages into an explorable analytical space. The model does not complete the object or create decorative relationships; it shows only the structure AzexAI has grounds to assert.",
+    "iitNote": "IIT 3D is positioned as a flagship Institutional Index capability. Client delivery depends on package level and is not an automatic part of Standard.",
+    "whiteTitle": "WhiteBox",
+    "whiteLede": "Explain the result. Protect the method.",
+    "whiteBody": "WhiteBox is a controlled explainability mechanism that helps users understand the permitted basis of a result without exposing protected methodology.",
+    "whiteNote": "WhiteBox is not presented as an automatically available feature for every client. Availability and depth depend on the authorized disclosure level.",
+    "boundaryTitle": "Public boundary",
+    "boundaryBody": "Specific sector and object coverage of Institutional Index is published only after separate confirmation."
+  },
+  "plus": {
+    "kicker": "AzexAI Plus",
+    "headline": "Seven specialized services. Seven independent analytical results.",
+    "lede": "AzexAI Plus consists of independent specialized services for analyzing specific aspects of a company, project or organization.",
+    "each": "Each service has its own domain, calculation logic and standalone result.",
+    "independenceTitle": "Independence",
+    "independenceBody": "Plus services do not replace or mix Index or Institutional Index results and do not create one combined seven-service result.",
+    "presentationTitle": "Result presentation",
+    "presentationBody": "Each service forms its own result, which is explained only within the approved subject and analytical boundaries of that service.",
+    "asProduct": "Each service is presented as an independent product."
+  },
+  "trust": {
+    "kicker": "Trust",
+    "headline": "Verifiable result. Controlled explanation. Protected method.",
+    "lede": "Trust in AzexAI VSM is built not on interface transparency alone, but on the discipline by which the result is formed.",
+    "items": [
+      "Evidence-based input",
+      "Structured data",
+      "Controlled calculation logic",
+      "Reproducible result",
+      "Separation of result and explanation",
+      "Traceability",
+      "Protected methodology"
+    ],
+    "order": "The result is formed and fixed first. It may then be explained, explored and visualized.",
+    "explainTitle": "Controlled explainability",
+    "explainBody": "WhiteBox explains the permitted basis of a result without exposing internal formulas, parameters or protected methodology.",
+    "validationTitle": "Public validation",
+    "validationBody": "A public validation section may state that control series demonstrated reproducibility across independent executions. Company names, logos and specific scores are not published without a separate legal decision."
+  },
+  "technology": {
+    "kicker": "Technology & methodology",
+    "headline": "AzexAI VSM is built on a proprietary scientific and technical methodology.",
+    "lede": "The methodology is designed for structured analytical assessment of complex objects under uncertainty and information asymmetry.",
+    "items": [
+      "Structured analytical input",
+      "Verifiability",
+      "Reproducibility",
+      "Fixed result",
+      "Controlled interpretation",
+      "Product-specific calculation logic",
+      "Protection of intellectual property"
+    ],
+    "purpose": "AzexAI is not designed to generate more text. It is designed to form a justified analytical result.",
+    "protectedTitle": "Protected methodology",
+    "protectedBody": "The website explains the purpose and principles of the methodology, but does not expose formulas, weights, internal variables, calculation rules or technical details that could enable reconstruction of protected logic."
+  },
+  "iit3d": {
+    "kicker": "IIT 3D",
+    "headline": "The space of the verified structure of the result.",
+    "lede": "IIT 3D is an explorable analytical space of the verified structure of the result. It moves the result from a sequence of pages into a digital environment where structure, dimensions, constraints and supported relationships can be explored.",
+    "body": "The model does not complete the object or create decorative relationships; it shows only the structure AzexAI has grounds to assert.",
+    "note": "IIT 3D is positioned as a flagship Institutional Index capability. Client delivery depends on package level and is not an automatic part of Standard.",
+    "visualCaption": "A spatial reading of verified structure — not a generated scene, and not a substitute for the result."
+  },
+  "research": {
+    "kicker": "Research",
+    "headline": "Research in verifiable analytical intelligence.",
+    "lede": "AzexAI Systems advances research in assessment methodology, analytical systems, trust, institutional applications and verifiable artificial intelligence.",
+    "empty": "Research notes, papers and public briefings will appear here when they are cleared for publication."
+  },
+  "company": {
+    "kicker": "Company",
+    "headline": "AzexAI Systems",
+    "lede": "AzexAI Systems is the company that created the technology and operates the AzexAI VSM platform.",
+    "aboutTitle": "About",
+    "aboutBody": "The company develops technologies for verifiable analytical AI, structured assessment and institutional trust.",
+    "systemTitle": "One strategic system",
+    "systemBody": "The company develops the product, methodology, research, trust framework and institutional applications within one strategic system."
+  },
+  "leadership": {
+    "kicker": "Leadership & team",
+    "headline": "Founders, leadership and key specialists.",
+    "lede": "This section presents the founders, leadership and key specialists of the company. Biographies are published only from confirmed public information.",
+    "empty": "Leadership biographies will be published here only after public confirmation."
+  },
+  "partnerships": {
+    "kicker": "Partnerships",
+    "headline": "Open to institutional collaboration.",
+    "lede": "AzexAI Systems is open to government, institutional, corporate, financial, innovation, scientific and technology partnerships.",
+    "types": [
+      "Government",
+      "Institutional",
+      "Corporate",
+      "Financial",
+      "Innovation",
+      "Scientific",
+      "Technology"
+    ]
+  },
+  "insights": {
+    "kicker": "Insights",
+    "headline": "Research, updates and analytical position.",
+    "lede": "Research, company updates, talks, events and the analytical perspective of AzexAI Systems.",
+    "empty": "Insights appear here when they are cleared for public release. Company names, logos and scores are not published without a separate legal decision."
+  },
+  "support": {
+    "kicker": "Support",
+    "headline": "Support and contact with AzexAI Systems.",
+    "lede": "Contact channels for product questions, platform access, partnerships, corporate inquiries and general support.",
+    "assistantTitle": "Support Assistant",
+    "assistantBody": "The Support Assistant may answer questions about the company, products, access, orders, navigation and general rules.",
+    "assistantLimit": "The Support Assistant does not perform assessments, create new analytical results or disclose protected methodology.",
+    "humanTitle": "Human support",
+    "humanBody": "Users must have a direct path to human support.",
+    "openAssistant": "Ask the Support Assistant"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "headline": "Write to AzexAI Systems.",
+    "lede": "Product questions, platform access, partnerships, corporate inquiries and general support.",
+    "name": "Name",
+    "email": "Email",
+    "organization": "Organization",
+    "intent": "Subject",
+    "message": "Message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Your message has been received. A member of the team will respond.",
+    "error": "The message could not be sent. Please write directly to the contact address.",
+    "required": "Please complete the required fields.",
+    "intents": {
+      "general": "General contact",
+      "product": "Product question",
+      "platform": "Platform access",
+      "partnership": "Partnership inquiry",
+      "corporate": "Corporate inquiry",
+      "human": "Request human assistance",
+      "support": "Contact support"
+    }
+  },
+  "assistant": {
+    "title": "Support Assistant",
+    "subtitle": "Company, products, access and navigation. No assessments. No protected methodology.",
+    "placeholder": "Ask a question…",
+    "send": "Send",
+    "human": "Talk to a person",
+    "disclaimer": "Answers are limited to public website information.",
+    "fallback": "I can help with the company, products, platform access, orders, navigation and general rules. I cannot perform assessments, create a new analytical result, or discuss protected methodology. Would you like to reach human support?",
+    "greeting": "I can answer questions about AzexAI Systems, AzexAI VSM, products, access and navigation — using only public information."
+  },
+  "notFound": {
+    "kicker": "404",
+    "headline": "This page is not part of the public site.",
+    "body": "Return to AzexAI Systems or continue to AzexAI VSM.",
+    "home": "Return home"
+  }
+}

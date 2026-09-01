@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "siteName": "AzexAI Systems",
+    "title": "AzexAI Systems — Yoxlanıla bilən analitik nəticələr",
+    "description": "AzexAI Systems mürəkkəb obyektləri strukturlaşdırılmış, yoxlanıla bilən və təkrarlana bilən analitik nəticələrə çevirən AzexAI VSM texnologiyasını yaradıb və platformanın operatorudur.",
+    "ogTitle": "AzexAI Systems",
+    "ogDescription": "Sübutdan nəticəyə. Nəticədən anlayışa."
+  },
+  "nav": {
+    "home": "Ana səhifə",
+    "vsm": "AzexAI VSM",
+    "products": "Məhsullar",
+    "technology": "Texnologiya",
+    "iit3d": "IIT 3D",
+    "trust": "Etimad",
+    "research": "Tədqiqat",
+    "company": "Şirkət",
+    "leadership": "Rəhbərlik",
+    "partnerships": "Tərəfdaşlıq",
+    "insights": "Analitika",
+    "support": "Dəstək",
+    "contact": "Əlaqə",
+    "index": "AzexAI Index",
+    "institutional": "Institutional Index",
+    "plus": "AzexAI Plus",
+    "access": "Access AzexAI VSM",
+    "menu": "Menyu",
+    "close": "Bağla",
+    "language": "Dil"
+  },
+  "common": {
+    "exploreVsm": "Explore AzexAI VSM",
+    "accessPlatform": "Access Platform",
+    "exploreIndex": "Explore AzexAI Index",
+    "exploreInstitutional": "Explore Institutional Index",
+    "explorePlus": "Explore AzexAI Plus",
+    "aboutCompany": "About AzexAI Systems",
+    "readMore": "Davam et",
+    "primaryAction": "Access AzexAI VSM",
+    "requestAccess": "Platformaya giriş sorğusu",
+    "humanSupport": "İnsan dəstəyi",
+    "partnershipInquiry": "Tərəfdaşlıq sorğusu",
+    "generalContact": "Ümumi əlaqə",
+    "contactSupport": "Dəstək ilə əlaqə",
+    "protectedNote": "İctimai-təhlükəsiz məlumat. Formlalar, çəkilər və daxili metodologiya açıqlanmır.",
+    "platformSeparate": "AzexAI VSM platforması korporativ saytdan ayrı iş mühitidir."
+  },
+  "chain": {
+    "uncertainty": "Qeyri-müəyyənlik",
+    "evidence": "Sübut",
+    "structure": "Struktur",
+    "result": "Nəticə",
+    "understanding": "Anlama"
+  },
+  "footer": {
+    "tagline": "Sübutdan nəticəyə. Nəticədən anlayışa.",
+    "platform": "Platforma",
+    "products": "Məhsullar",
+    "company": "Şirkət",
+    "contact": "Əlaqə",
+    "partnership": "Tərəfdaşlıq",
+    "human": "İnsan dəstəyi",
+    "rights": "AzexAI Systems. Bütün hüquqlar qorunur.",
+    "methodology": "Sayt məqsədi və prinsipləri izah edir. Formlaları, çəkiləri, daxili dəyişənləri və yenidən qurulabilən hesablama qaydalarını açıqlamır."
+  },
+  "home": {
+    "kicker": "AzexAI Systems",
+    "headline": "AzexAI VSM — yoxlanıla bilən analitik nəticələr üçün yaradılmış platforma.",
+    "lede": "AzexAI Systems mürəkkəb obyektləri qeyri-müəyyənlik və məlumat asimmetriyası şəraitində strukturlaşdırılmış, yoxlanıla bilən və təkrarlana bilən analitik nəticələrə çevirən AzexAI VSM texnologiyasını yaradıb və platformanın operatorudur.",
+    "statementA": "Sübutdan nəticəyə. Nəticədən anlayışa.",
+    "statementB": "Məlumat deyil. Analitik vəziyyət.",
+    "body": "AzexAI VSM obyekti sənədlər və iddialar toplusu kimi qəbul etmir. Sistem yalnız əsaslandırıla bilən məlumatları strukturlaşdırır və onları müvafiq məhsulun analitik çərçivəsində yoxlanıla bilən vəziyyətə çevirir.",
+    "principlesTitle": "Nəticə necə formalaşır",
+    "principles": [
+      "Sübut əsaslı giriş",
+      "Strukturlaşdırılmış analitik model",
+      "Sabit nəticə",
+      "Nəzarət olunan izah",
+      "Metodologiyanın qorunması"
+    ],
+    "boundaryKicker": "Sİ-nin sərhədi",
+    "boundaryTitle": "Sİ nəticəni izah etməyə kömək edə bilər, amma onu uydurmaq hüququna malik deyil.",
+    "boundaryBody": "Təsdiqlənməyən məlumat yalnız Sİ boşluğu doldura bildiyi üçün fakt olmur. AzexAI Sİ-nin ehtimal edə bildiyi hər şeyi deyil, sistemin əsaslandırmağa hüququ olanı göstərir.",
+    "productsTitle": "AzexAI VSM daxilində məhsullar",
+    "trustTitle": "Niyə AzexAI-yə etibar etmək olar",
+    "trustItems": [
+      "Yoxlanıla bilən giriş əsası",
+      "Nəzarət olunan hesablamalar",
+      "Təkrarlana bilmə",
+      "İzlənə bilmə",
+      "Nəticə və izahın ayrılması"
+    ],
+    "iitTitle": "IIT 3D",
+    "iitLede": "IIT 3D — nəticənin təsdiqlənmiş strukturunun araşdırıla bilən analitik məkanıdır.",
+    "iitBody": "Institutional Index üçün IIT 3D nəticəni səhifələr ardıcıllığından strukturun, ölçülərin, məhdudiyyətlərin və təsdiqlənmiş əlaqələrin araşdırıla bildiyi rəqəmsal mühitə keçirir.",
+    "scienceTitle": "Elmi-texniki əsas",
+    "scienceBody": "AzexAI VSM mürəkkəb obyektlərin analitik qiymətləndirilməsi üçün xüsusi elmi-texniki metodologiya üzərində qurulub: strukturlaşdırma, yoxlanıla bilmə, təkrarlana bilmə, sabit nəticə və nəzarət olunan interpretasiya.",
+    "companyTitle": "AzexAI Systems",
+    "companyBody": "AzexAI Systems texnologiyanı yaradan şirkət və AzexAI VSM platformasının operatorudur. Şirkət məhsul, metodologiya, tədqiqat, etimad və institusional tətbiq istiqamətlərini vahid strateji çərçivədə inkişaf etdirir."
+  },
+  "vsm": {
+    "kicker": "AzexAI VSM",
+    "title": "Verifiable Structured Model",
+    "headline": "Mürəkkəb məlumatdan yoxlanıla bilən analitik nəticəyə.",
+    "lede": "AzexAI VSM generativ cavab sistemi deyil. O, məlumatların əsasını, strukturunu, hesablamanı, nəticəni və izahı bir-birindən ayıran analitik platformadır.",
+    "statement": "AzexAI məlumatları Sİ rəyi deyil, yoxlanıla bilən analitik vəziyyətə çevirir.",
+    "doesTitle": "AzexAI VSM nə edir",
+    "does": [
+      "Məlumat və sübutları strukturlaşdırır",
+      "Təsdiq olunmayanı fakt kimi qəbul etmir",
+      "Məhsula uyğun hesablamanı icra edir",
+      "Nəticəni sabit və təkrarlana bilən formada formalaşdırır",
+      "Nəticəni hesabat, analitik model və nəzarət olunan izahla təqdim edir"
+    ],
+    "aiTitle": "Sİ nəticənin sahibi deyil",
+    "aiLede": "Təsdiqlənməyən məlumat yalnız Sİ onu tamamlaya bildiyi üçün həqiqətə çevrilmir.",
+    "aiBody": "AzexAI VSM-də Sİ məlumatla işləməyə və nəticəni izah etməyə kömək edə bilər, lakin əsaslandırılmamış fakt və ya yeni hesablanmış nəticə yarada bilməz.",
+    "modelTitle": "Obyektin analitik modeli",
+    "modelBody": "Qiymətləndirilən obyekt sənədlərin sadə toplusundan çıxaraq təsdiqlənmiş xüsusiyyətlər, məhdudiyyətlər, ölçülər və münasibətlər daxilində strukturlaşdırılmış analitik modelə çevrilir.",
+    "orderTitle": "Nəticə əvvəlcə formalaşır. Sonra izah olunur.",
+    "orderBody": "Nəticənin izahı, vizuallaşdırılması və təqdimatı onu yenidən hesablamaq və ya dəyişdirmək üçün istifadə edilmir.",
+    "accessTitle": "Platformaya keçid",
+    "accessBody": "AzexAI VSM platforması korporativ saytdan ayrı iş mühitidir."
+  },
+  "products": {
+    "kicker": "Məhsullar",
+    "headline": "Vahid metodoloji intizam. Müstəqil analitik məhsullar.",
+    "lede": "AzexAI məhsulları eyni nəticənin müxtəlif adları deyil. Hər məhsul öz məqsədi, analitik məntiqi və nəticə forması ilə ayrıca qiymətləndirmə sistemidir.",
+    "indexName": "AzexAI Index",
+    "indexLede": "Strukturlaşdırılmış indeks qiymətləndirilməsi və nəticənin aydın analitik təqdimatı.",
+    "indexPoints": [
+      "Index Standard — tam keyfiyyətli əsas nəticə",
+      "Index Premium — eyni nəticə ailəsində daha dərin analitik təqdimat",
+      "Daha dərin təqdimat yeni hesablanmış nəticə yaratmır"
+    ],
+    "instName": "Institutional Index",
+    "instLede": "Peşəkar və institusional qiymətləndirmə ssenariləri üçün müstəqil məhsul. Adi Index-in Premium versiyası deyil.",
+    "instPoints": [
+      "Müstəqil institusional nəticə",
+      "Dörd analitik ölçü",
+      "Institutional Report",
+      "Digital Analytical Model",
+      "IIT 3D — uyğun paketlərdə",
+      "Yüksək izlənə bilmə və sübut intizamı"
+    ],
+    "instNote": "Konkret sektor əhatəsi yalnız ayrıca təsdiqləndikdən sonra təqdim olunur.",
+    "plusName": "AzexAI Plus",
+    "plusLede": "Yeddi müstəqil ixtisaslaşmış analitik xidmət."
+  },
+  "index": {
+    "kicker": "AzexAI Index",
+    "headline": "Strukturlaşdırılmış indeks qiymətləndirilməsi və yoxlanıla bilən nəticə.",
+    "lede": "AzexAI Index strukturlaşdırılmış indeks qiymətləndirilməsi və nəticənin aydın analitik təqdimatını təmin edir.",
+    "standardTitle": "Index Standard",
+    "standardBody": "Tam keyfiyyətli əsas nəticə.",
+    "premiumTitle": "Index Premium",
+    "premiumBody": "Eyni nəticə ailəsində daha dərin analitik təqdimat.",
+    "note": "Daha dərin təqdimat yeni hesablanmış nəticə yaratmır."
+  },
+  "institutional": {
+    "kicker": "Institutional Index",
+    "label": "Institutional analytics",
+    "headline": "Hesabatdan daha dərin: nəticənin araşdırıla bilən analitik modeli.",
+    "lede": "Institutional Index peşəkar və institusional qiymətləndirmə ssenariləri üçün müstəqil AzexAI VSM məhsuludur.",
+    "flow": "Nəticə → 4 ölçü → Digital Analytical Model → IIT 3D → Hesabat / Sübut / İzlənə bilmə",
+    "damTitle": "Digital Analytical Model",
+    "damLede": "Hesabat nəticəni qeyd edir. Rəqəmsal analitik model onun strukturunu araşdırmağa imkan verir.",
+    "damBody": "Digital Analytical Model nəticəni, analitik ölçüləri, təsdiqlənmiş xüsusiyyətləri, məhdudiyyətləri və əlaqələri vahid rəqəmsal analitik mühitdə saxlayır.",
+    "iitTitle": "IIT 3D",
+    "iitLede": "IIT 3D — nəticənin təsdiqlənmiş strukturunun məkanıdır.",
+    "iitBody": "IIT 3D nəticəni səhifələr ardıcıllığından araşdırıla bilən analitik məkana keçirir. Model obyekti tamamlamır və əlaqələri uydurmur; yalnız əsaslandırılmış strukturu göstərir.",
+    "iitNote": "IIT 3D Institutional Index-in flagship imkanlarından biridir. Müştəriyə təqdimat paket səviyyəsindən asılıdır və Standard üçün avtomatik deyil.",
+    "whiteTitle": "WhiteBox",
+    "whiteLede": "Explain the result. Protect the method.",
+    "whiteBody": "WhiteBox nəticənin icazə verilən əsaslarını anlamağa imkan verən nəzarət olunan izaholunma mexanizmidir və qorunan metodologiyanı açıqlamır.",
+    "whiteNote": "WhiteBox hər müştəri üçün avtomatik açıq funksiya deyil. Əlçatanlıq və dərinlik icazə verilmiş açıqlama səviyyəsindən asılıdır.",
+    "boundaryTitle": "İctimai sərhəd",
+    "boundaryBody": "Institutional Index üçün konkret sektor və obyekt əhatəsi yalnız ayrıca təsdiqləndikdən sonra ictimai şəkildə göstərilir."
+  },
+  "plus": {
+    "kicker": "AzexAI Plus",
+    "headline": "Yeddi ixtisaslaşmış xidmət. Yeddi müstəqil analitik nəticə.",
+    "lede": "AzexAI Plus şirkət, layihə və təşkilatların ayrı-ayrı analitik sahələrini qiymətləndirən müstəqil ixtisaslaşmış xidmətlərdən ibarətdir.",
+    "each": "Hər xidmətin öz predmet sahəsi, öz hesablanma məntiqi və müstəqil nəticəsi var.",
+    "independenceTitle": "Müstəqillik",
+    "independenceBody": "Plus xidmətləri Index və Institutional Index nəticələrini əvəz etmir, qarışdırmır və vahid yeddi-xidmət nəticəsi yaratmır.",
+    "presentationTitle": "Nəticənin təqdimatı",
+    "presentationBody": "Hər xidmət öz nəticəsini formalaşdırır və həmin nəticə yalnız müvafiq xidmətin təsdiqlənmiş analitik sərhədləri daxilində izah edilir.",
+    "asProduct": "Hər xidmət ayrıca məhsul kimi təqdim olunur."
+  },
+  "trust": {
+    "kicker": "Etimad",
+    "headline": "Yoxlanıla bilən nəticə. Nəzarət olunan izah. Qorunan metod.",
+    "lede": "AzexAI VSM-də etimad yalnız vizual şəffaflıqdan deyil, nəticənin necə formalaşdırıldığına dair intizamdan yaranır.",
+    "items": [
+      "Sübut əsaslı giriş",
+      "Strukturlaşdırılmış məlumat",
+      "Nəzarət olunan hesablamalar",
+      "Təkrarlana bilən nəticə",
+      "Nəticə və izahın ayrılması",
+      "İzlənə bilmə",
+      "Qorunan metodologiya"
+    ],
+    "order": "Nəticə əvvəlcə formalaşır və sabitlənir. Sonra izah olunur, araşdırılır və vizuallaşdırılır.",
+    "explainTitle": "Controlled Explainability",
+    "explainBody": "WhiteBox nəticənin icazə verilən əsaslarını izah edir, lakin daxili formulaları, parametrləri və qorunan metodologiyanı açıqlamır.",
+    "validationTitle": "Public Validation",
+    "validationBody": "İctimai nəzarət seriyaları nəticələrin müstəqil icralarda təkrarlana bilməsini göstərmək üçün təqdim oluna bilər. Şirkət adları, loqolar və konkret ballar ayrıca hüquqi qərar olmadan istifadə edilmir."
+  },
+  "technology": {
+    "kicker": "Texnologiya və metodologiya",
+    "headline": "AzexAI VSM xüsusi elmi-texniki metodologiya üzərində qurulub.",
+    "lede": "Metodologiya qeyri-müəyyənlik və məlumat asimmetriyası şəraitində mürəkkəb obyektlərin strukturlaşdırılmış analitik qiymətləndirilməsi üçün yaradılıb.",
+    "items": [
+      "Strukturlaşdırılmış analitik giriş",
+      "Yoxlanıla bilmə",
+      "Təkrarlana bilmə",
+      "Sabit nəticə",
+      "Nəzarət olunan interpretasiya",
+      "Məhsula uyğun hesablama məntiqi",
+      "Əqli mülkiyyətin qorunması"
+    ],
+    "purpose": "AzexAI-nin məqsədi daha çox mətn yaratmaq deyil; əsaslandırılmış analitik nəticə formalaşdırmaqdır.",
+    "protectedTitle": "Qorunan metodologiya",
+    "protectedBody": "Sayt metodologiyanın məqsədini və prinsiplərini izah edir, lakin formulaları, çəkiləri, daxili dəyişənləri, hesablanma qaydalarını və metodologiyanın yenidən qurulmasına imkan verən texniki detalları açıqlamır."
+  },
+  "iit3d": {
+    "kicker": "IIT 3D",
+    "headline": "Nəticənin təsdiqlənmiş strukturunun məkanı.",
+    "lede": "IIT 3D nəticənin təsdiqlənmiş strukturunun araşdırıla bilən analitik məkanıdır. O, nəticəni səhifələr ardıcıllığından strukturun, ölçülərin, məhdudiyyətlərin və təsdiqlənmiş əlaqələrin araşdırıla bildiyi rəqəmsal mühitə keçirir.",
+    "body": "Model obyekti tamamlamır və əlaqələri uydurmur; yalnız əsaslandırılmış strukturu göstərir.",
+    "note": "IIT 3D Institutional Index-in flagship imkanlarından biridir. Müştəriyə təqdimat paket səviyyəsindən asılıdır və Standard üçün avtomatik deyil.",
+    "visualCaption": "Təsdiqlənmiş strukturun məkan oxunuşu — generasiya olunmuş səhnə deyil və nəticənin əvəzi deyil."
+  },
+  "research": {
+    "kicker": "Tədqiqat",
+    "headline": "Yoxlanıla bilən analitik intellekt üzrə tədqiqat.",
+    "lede": "AzexAI Systems metodologiya, analitik qiymətləndirmə, etimad, institusional tətbiq və yoxlanıla bilən Sİ sahələrində tədqiqat və inkişaf işlərini davam etdirir.",
+    "empty": "Tədqiqat qeydləri, məqalələr və ictimai brifinqlər dərc üçün təsdiqləndikdən sonra burada yer alacaq."
+  },
+  "company": {
+    "kicker": "Şirkət",
+    "headline": "AzexAI Systems",
+    "lede": "AzexAI Systems texnologiyanı yaratmış şirkət və AzexAI VSM platformasının operatorudur.",
+    "aboutTitle": "Haqqında",
+    "aboutBody": "Şirkət yoxlanıla bilən analitik Sİ sistemləri, strukturlaşdırılmış qiymətləndirmə və institusional səviyyədə etimad üçün texnologiyalar yaradır.",
+    "systemTitle": "Vahid strateji çərçivə",
+    "systemBody": "Şirkət məhsul, metodologiya, tədqiqat, etimad və institusional tətbiq istiqamətlərini vahid strateji çərçivədə inkişaf etdirir."
+  },
+  "leadership": {
+    "kicker": "Rəhbərlik və komanda",
+    "headline": "Təsisçilər, rəhbərlik və əsas mütəxəssislər.",
+    "lede": "Bu bölmədə şirkətin təsisçiləri, rəhbərliyi və əsas mütəxəssisləri təqdim olunur. Bio məlumatları yalnız təsdiqlənmiş ictimai məlumatlarla dərc edilir.",
+    "empty": "Rəhbərlik bioqrafiyaları yalnız ictimai təsdiqdən sonra burada dərc olunacaq."
+  },
+  "partnerships": {
+    "kicker": "Tərəfdaşlıq",
+    "headline": "İnstitusional əməkdaşlığa açıq.",
+    "lede": "AzexAI Systems dövlət, institusional, korporativ, maliyyə, innovasiya, elmi və texnoloji tərəfdaşlıqlara açıqdır.",
+    "types": [
+      "Dövlət",
+      "İnstitusional",
+      "Korporativ",
+      "Maliyyə",
+      "İnnovasiya",
+      "Elmi",
+      "Texnoloji"
+    ]
+  },
+  "insights": {
+    "kicker": "Analitika",
+    "headline": "Tədqiqatlar, yeniliklər və analitik mövqe.",
+    "lede": "Tədqiqatlar, şirkət yenilikləri, çıxışlar, tədbirlər və AzexAI Systems-in analitik mövqeyi.",
+    "empty": "Materiallar ictimai buraxılış üçün təsdiqləndikdən sonra burada yer alır. Şirkət adları, loqolar və ballar ayrıca hüquqi qərar olmadan dərc edilmir."
+  },
+  "support": {
+    "kicker": "Dəstək",
+    "headline": "AzexAI Systems ilə əlaqə və dəstək.",
+    "lede": "Məhsullar, platformaya giriş, tərəfdaşlıq, korporativ sorğular və ümumi dəstək üçün əlaqə kanalları.",
+    "assistantTitle": "Support Assistant",
+    "assistantBody": "Support Assistant şirkət, məhsullar, giriş, sifariş, naviqasiya və ümumi qaydalar barədə cavab verə bilər.",
+    "assistantLimit": "Support Assistant qiymətləndirmə aparmır, yeni analitik nəticə yaratmır və qorunan metodologiyanı açıqlamır.",
+    "humanTitle": "İnsan dəstəyi",
+    "humanBody": "İstifadəçi istənilən vaxt insan dəstəyinə keçə bilməlidir.",
+    "openAssistant": "Support Assistant-ə soruş"
+  },
+  "contact": {
+    "kicker": "Əlaqə",
+    "headline": "AzexAI Systems-ə yazın.",
+    "lede": "Məhsul sualları, platformaya giriş, tərəfdaşlıq, korporativ sorğular və ümumi dəstək.",
+    "name": "Ad",
+    "email": "E-poçt",
+    "organization": "Təşkilat",
+    "intent": "Mövzu",
+    "message": "Mesaj",
+    "send": "Göndər",
+    "sending": "Göndərilir…",
+    "success": "Mesajınız qəbul olundu. Komanda üzvü cavab verəcək.",
+    "error": "Mesaj göndərilmədi. Zəhmət olmasa birbaşa əlaqə ünvanına yazın.",
+    "required": "Zəhmət olmasa tələb olunan sahələri doldurun.",
+    "intents": {
+      "general": "Ümumi əlaqə",
+      "product": "Məhsul sualı",
+      "platform": "Platformaya giriş",
+      "partnership": "Tərəfdaşlıq sorğusu",
+      "corporate": "Korporativ sorğu",
+      "human": "İnsan dəstəyi",
+      "support": "Dəstək"
+    }
+  },
+  "assistant": {
+    "title": "Support Assistant",
+    "subtitle": "Şirkət, məhsullar, giriş və naviqasiya. Qiymətləndirmə yoxdur. Qorunan metodologiya yoxdur.",
+    "placeholder": "Sual yazın…",
+    "send": "Göndər",
+    "human": "İnsan ilə danış",
+    "disclaimer": "Cavablar yalnız ictimai sayt məlumatı ilə məhdudlaşır.",
+    "fallback": "Şirkət, məhsullar, platformaya giriş, sifariş, naviqasiya və ümumi qaydalar barədə kömək edə bilərəm. Qiymətləndirmə apara, yeni analitik nəticə yarada və ya qorunan metodologiyanı müzakirə edə bilmərəm. İnsan dəstəyinə keçmək istəyirsiniz?",
+    "greeting": "AzexAI Systems, AzexAI VSM, məhsullar, giriş və naviqasiya barədə — yalnız ictimai məlumat əsasında — cavab verə bilərəm."
+  },
+  "notFound": {
+    "kicker": "404",
+    "headline": "Bu səhifə ictimai saytda yoxdur.",
+    "body": "AzexAI Systems-ə qayıdın və ya AzexAI VSM-ə davam edin.",
+    "home": "Ana səhifə"
+  }
+}
