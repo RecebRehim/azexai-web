@@ -34,6 +34,12 @@ yarn-error.log*
 .env*
 !.env.example
 
+# workspace
+.cursor/
+
+# local extracts
+_*.txt
+
 # vercel
 .vercel
 
