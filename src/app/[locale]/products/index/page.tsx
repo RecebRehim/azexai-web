@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHero, Section } from "@/components/ui/PageHero";
 import { AccessButton } from "@/components/ui/ButtonLink";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/products/index", "index");
+}
 
 export default async function IndexProductPage({
   params,

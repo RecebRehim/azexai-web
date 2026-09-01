@@ -1,33 +1,16 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
-import { site } from "@/lib/site";
+import { site, sitemapPaths } from "@/lib/site";
 
-const paths = [
-  "",
-  "/vsm",
-  "/products",
-  "/products/index",
-  "/products/institutional-index",
-  "/products/plus",
-  "/technology",
-  "/iit-3d",
-  "/trust",
-  "/research",
-  "/company",
-  "/company/leadership",
-  "/company/partnerships",
-  "/insights",
-  "/support",
-  "/contact",
-];
+const CONTENT_DATE = new Date("2026-09-02");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routing.locales.flatMap((locale) =>
-    paths.map((path) => ({
+    sitemapPaths.map((path) => ({
       url: `${site.url}/${locale}${path}`,
-      lastModified: new Date(),
+      lastModified: CONTENT_DATE,
       changeFrequency: path === "" ? "weekly" : "monthly",
-      priority: path === "" ? 1 : 0.7,
+      priority: path === "" ? 1 : path === "/privacy" || path === "/terms" ? 0.3 : 0.7,
     })),
   );
 }

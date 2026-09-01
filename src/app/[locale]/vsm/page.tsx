@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ProcessChain } from "@/components/brand/ProcessChain";
 import { AccessButton } from "@/components/ui/ButtonLink";
 import { NumberedList, PageHero, Section } from "@/components/ui/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/vsm", "vsm");
+}
 
 export default async function VsmPage({
   params,

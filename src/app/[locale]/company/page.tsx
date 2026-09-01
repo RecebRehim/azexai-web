@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { PageHero, Section } from "@/components/ui/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/company", "company");
+}
 
 export default async function CompanyPage({
   params,
@@ -10,6 +21,7 @@ export default async function CompanyPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("company");
+  const nav = await getTranslations("nav");
 
   return (
     <>
@@ -27,10 +39,10 @@ export default async function CompanyPage({
         </div>
         <div className="mt-16 flex flex-wrap gap-3">
           <ButtonLink href="/company/leadership" variant="secondary">
-            Leadership
+            {nav("leadership")}
           </ButtonLink>
           <ButtonLink href="/company/partnerships" variant="secondary">
-            Partnerships
+            {nav("partnerships")}
           </ButtonLink>
         </div>
       </Section>

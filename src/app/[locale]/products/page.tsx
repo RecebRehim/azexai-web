@@ -1,8 +1,19 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { PageHero, Section } from "@/components/ui/PageHero";
 import { plusCodes } from "@/lib/site";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/products", "products");
+}
 
 export default async function ProductsPage({
   params,
@@ -20,12 +31,16 @@ export default async function ProductsPage({
       <Section className="!pt-0">
         <div className="grid gap-px bg-line">
           <article className="bg-ink px-0 py-14 md:grid md:grid-cols-[0.9fr_1.1fr] md:gap-16">
-            <h2 className="font-display text-4xl">{t("indexName")}</h2>
+            <h2 className="font-display text-4xl" translate="no">
+              {t("indexName")}
+            </h2>
             <div>
               <p className="text-lg leading-8 text-paper-soft">{t("indexLede")}</p>
               <ul className="mt-6 space-y-3 text-paper-soft">
                 {(t.raw("indexPoints") as string[]).map((item) => (
-                  <li key={item} className="border-l border-bronze pl-4">{item}</li>
+                  <li key={item} className="border-l border-bronze pl-4">
+                    {item}
+                  </li>
                 ))}
               </ul>
               <ButtonLink href="/products/index" variant="secondary" className="mt-8">
@@ -39,7 +54,9 @@ export default async function ProductsPage({
               <p className="text-lg leading-8 text-paper-soft">{t("instLede")}</p>
               <ul className="mt-6 space-y-3 text-paper-soft">
                 {(t.raw("instPoints") as string[]).map((item) => (
-                  <li key={item} className="border-l border-bronze pl-4">{item}</li>
+                  <li key={item} className="border-l border-bronze pl-4">
+                    {item}
+                  </li>
                 ))}
               </ul>
               <p className="mt-6 text-sm text-paper-dim">{t("instNote")}</p>
@@ -49,7 +66,9 @@ export default async function ProductsPage({
             </div>
           </article>
           <article className="bg-ink px-0 py-14 md:grid md:grid-cols-[0.9fr_1.1fr] md:gap-16">
-            <h2 className="font-display text-4xl">{t("plusName")}</h2>
+            <h2 className="font-display text-4xl" translate="no">
+              {t("plusName")}
+            </h2>
             <div>
               <p className="text-lg leading-8 text-paper-soft">{t("plusLede")}</p>
               <div className="mt-8 flex flex-wrap gap-2">
@@ -57,7 +76,8 @@ export default async function ProductsPage({
                   <Link
                     key={code}
                     href="/products/plus"
-                    className="border border-line px-4 py-2 font-mono text-sm tracking-[0.14em] text-bronze hover:border-bronze"
+                    translate="no"
+                    className="border border-line px-4 py-2 font-mono text-sm tracking-[0.14em] text-bronze transition-colors duration-200 hover:border-bronze"
                   >
                     {code}
                   </Link>

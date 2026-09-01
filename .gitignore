@@ -35,7 +35,11 @@ yarn-error.log*
 !.env.example
 
 # workspace
-.cursor/
+.cursor/*
+!.cursor/skills/
+!.cursor/skills/**
+!.cursor/rules/
+!.cursor/rules/**
 
 # local extracts
 _*.txt

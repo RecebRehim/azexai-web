@@ -1,5 +1,16 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { PageHero, Section } from "@/components/ui/PageHero";
+import { EmptyRecord, PageHero, Section } from "@/components/ui/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/company/leadership", "leadership");
+}
 
 export default async function LeadershipPage({
   params,
@@ -9,15 +20,18 @@ export default async function LeadershipPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("leadership");
+  const c = await getTranslations("common");
 
   return (
     <>
       <PageHero kicker={t("kicker")} title={t("headline")} lede={t("lede")} />
       <Section>
-        <div className="border border-dashed border-line-strong p-10 md:p-16">
-          <p className="kicker">Public record</p>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-paper-soft">{t("empty")}</p>
-        </div>
+        <EmptyRecord
+          kicker={t("emptyKicker")}
+          body={t("empty")}
+          href="/contact?intent=corporate"
+          cta={c("generalContact")}
+        />
       </Section>
     </>
   );

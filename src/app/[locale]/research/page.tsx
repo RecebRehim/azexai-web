@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { PageHero, Section } from "@/components/ui/PageHero";
-import { ButtonLink } from "@/components/ui/ButtonLink";
+import { EmptyRecord, PageHero, Section } from "@/components/ui/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/research", "research");
+}
 
 export default async function ResearchPage({
   params,
@@ -10,18 +20,13 @@ export default async function ResearchPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("research");
+  const c = await getTranslations("common");
 
   return (
     <>
       <PageHero kicker={t("kicker")} title={t("headline")} lede={t("lede")} />
       <Section>
-        <div className="border border-line p-10 md:p-16">
-          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-bronze">01</p>
-          <p className="mt-6 max-w-2xl text-lg leading-8 text-paper-soft">{t("empty")}</p>
-        </div>
-        <ButtonLink href="/insights" variant="secondary" className="mt-10">
-          Insights
-        </ButtonLink>
+        <EmptyRecord kicker={t("emptyKicker")} body={t("empty")} href="/insights" cta={c("continueInsights")} />
       </Section>
     </>
   );

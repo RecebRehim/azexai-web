@@ -11,6 +11,7 @@ export function StructureCanvas({ caption }: { caption?: string }) {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let frame = 0;
     let raf = 0;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
@@ -87,7 +88,7 @@ export function StructureCanvas({ caption }: { caption?: string }) {
     const draw = () => {
       const { width, height } = canvas.getBoundingClientRect();
       ctx.clearRect(0, 0, width, height);
-      const t = frame / 90;
+      const t = reduce ? 2.1 : frame / 90;
 
       ctx.strokeStyle = "rgba(43,127,212,0.12)";
       ctx.lineWidth = 1;
@@ -107,8 +108,10 @@ export function StructureCanvas({ caption }: { caption?: string }) {
         ctx.fill();
       });
 
-      frame += 1;
-      raf = requestAnimationFrame(draw);
+      if (!reduce) {
+        frame += 1;
+        raf = requestAnimationFrame(draw);
+      }
     };
     draw();
 
@@ -120,7 +123,13 @@ export function StructureCanvas({ caption }: { caption?: string }) {
 
   return (
     <figure className="relative overflow-hidden border border-line bg-ink-2">
-      <canvas ref={ref} className="h-[420px] w-full md:h-[520px]" />
+      <canvas
+        ref={ref}
+        className="h-[420px] w-full md:h-[520px]"
+        aria-hidden="true"
+        width={1200}
+        height={520}
+      />
       {caption && (
         <figcaption className="border-t border-line px-5 py-4 font-mono text-[11px] leading-6 tracking-[0.08em] text-paper-dim">
           {caption}

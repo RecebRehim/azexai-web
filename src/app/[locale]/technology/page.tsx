@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { NumberedList, PageHero, Section } from "@/components/ui/PageHero";
 import { ButtonLink } from "@/components/ui/ButtonLink";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/technology", "technology");
+}
 
 export default async function TechnologyPage({
   params,
@@ -11,6 +22,7 @@ export default async function TechnologyPage({
   setRequestLocale(locale);
   const t = await getTranslations("technology");
   const c = await getTranslations("common");
+  const nav = await getTranslations("nav");
 
   return (
     <>
@@ -27,7 +39,7 @@ export default async function TechnologyPage({
           <p className="mt-5 max-w-3xl text-lg leading-8 text-paper-soft">{t("protectedBody")}</p>
           <p className="mt-8 text-sm text-paper-dim">{c("protectedNote")}</p>
           <ButtonLink href="/research" variant="secondary" className="mt-10">
-            Research
+            {nav("research")}
           </ButtonLink>
         </Section>
       </section>

@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ButtonLink } from "@/components/ui/ButtonLink";
 import { PageHero, Section } from "@/components/ui/PageHero";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/products/institutional-index", "institutional");
+}
 
 export default async function InstitutionalPage({
   params,
@@ -11,6 +22,7 @@ export default async function InstitutionalPage({
   setRequestLocale(locale);
   const t = await getTranslations("institutional");
   const c = await getTranslations("common");
+  const nav = await getTranslations("nav");
 
   return (
     <>
@@ -28,12 +40,14 @@ export default async function InstitutionalPage({
             <p className="mt-5 max-w-3xl text-lg leading-8 text-paper-soft">{t("damBody")}</p>
           </article>
           <article>
-            <p className="kicker">{t("iitTitle")}</p>
+            <p className="kicker" translate="no">
+              {t("iitTitle")}
+            </p>
             <h2 className="font-display mt-4 text-4xl">{t("iitLede")}</h2>
             <p className="mt-5 max-w-3xl text-lg leading-8 text-paper-soft">{t("iitBody")}</p>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-paper-dim">{t("iitNote")}</p>
             <ButtonLink href="/iit-3d" variant="secondary" className="mt-8">
-              IIT 3D
+              {nav("iit3d")}
             </ButtonLink>
           </article>
           <article>

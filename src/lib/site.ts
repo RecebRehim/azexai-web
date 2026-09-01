@@ -24,18 +24,33 @@ export const processChain = [
   "understanding",
 ] as const;
 
-export const navItems = [
-  { href: "/", key: "home" },
-  { href: "/vsm", key: "vsm" },
+export const intentKeys = [
+  "general",
+  "product",
+  "platform",
+  "partnership",
+  "corporate",
+  "human",
+  "support",
+] as const;
+
+export type IntentKey = (typeof intentKeys)[number];
+
+export const productNav = [
   { href: "/products", key: "products" },
-  { href: "/technology", key: "technology" },
+  { href: "/products/index", key: "index" },
+  { href: "/products/institutional-index", key: "institutional" },
+  { href: "/products/plus", key: "plus" },
   { href: "/iit-3d", key: "iit3d" },
-  { href: "/trust", key: "trust" },
-  { href: "/research", key: "research" },
+] as const;
+
+export const companyNav = [
   { href: "/company", key: "company" },
+  { href: "/company/leadership", key: "leadership" },
+  { href: "/company/partnerships", key: "partnerships" },
+  { href: "/research", key: "research" },
   { href: "/insights", key: "insights" },
   { href: "/support", key: "support" },
-  { href: "/contact", key: "contact" },
 ] as const;
 
 export const footerGroups = [
@@ -76,4 +91,25 @@ export const footerGroups = [
       { href: "/contact?intent=human", key: "human" },
     ],
   },
+] as const;
+
+export const sitemapPaths = [
+  "",
+  "/vsm",
+  "/products",
+  "/products/index",
+  "/products/institutional-index",
+  "/products/plus",
+  "/technology",
+  "/iit-3d",
+  "/trust",
+  "/research",
+  "/company",
+  "/company/leadership",
+  "/company/partnerships",
+  "/insights",
+  "/support",
+  "/contact",
+  "/privacy",
+  "/terms",
 ] as const;

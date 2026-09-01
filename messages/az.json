@@ -23,27 +23,31 @@
     "index": "AzexAI Index",
     "institutional": "Institutional Index",
     "plus": "AzexAI Plus",
-    "access": "Access AzexAI VSM",
+    "access": "AzexAI VSM-ə giriş",
     "menu": "Menyu",
     "close": "Bağla",
-    "language": "Dil"
+    "language": "Dil",
+    "skipToContent": "Məzmuna keç",
+    "primary": "Əsas naviqasiya",
+    "privacy": "Məxfilik",
+    "terms": "Şərtlər"
   },
   "common": {
-    "exploreVsm": "Explore AzexAI VSM",
-    "accessPlatform": "Access Platform",
-    "exploreIndex": "Explore AzexAI Index",
-    "exploreInstitutional": "Explore Institutional Index",
-    "explorePlus": "Explore AzexAI Plus",
-    "aboutCompany": "About AzexAI Systems",
-    "readMore": "Davam et",
-    "primaryAction": "Access AzexAI VSM",
+    "exploreVsm": "AzexAI VSM-i kəşf et",
+    "accessPlatform": "Platformaya giriş",
+    "exploreIndex": "AzexAI Index-i kəşf et",
+    "exploreInstitutional": "Institutional Index-i kəşf et",
+    "explorePlus": "AzexAI Plus-u kəşf et",
+    "aboutCompany": "AzexAI Systems haqqında",
+    "primaryAction": "AzexAI VSM-ə giriş",
     "requestAccess": "Platformaya giriş sorğusu",
     "humanSupport": "İnsan dəstəyi",
     "partnershipInquiry": "Tərəfdaşlıq sorğusu",
     "generalContact": "Ümumi əlaqə",
     "contactSupport": "Dəstək ilə əlaqə",
     "protectedNote": "İctimai-təhlükəsiz məlumat. Formlalar, çəkilər və daxili metodologiya açıqlanmır.",
-    "platformSeparate": "AzexAI VSM platforması korporativ saytdan ayrı iş mühitidir."
+    "platformSeparate": "AzexAI VSM platforması korporativ saytdan ayrı iş mühitidir.",
+    "continueInsights": "Analitikaya keç"
   },
   "chain": {
     "uncertainty": "Qeyri-müəyyənlik",
@@ -60,8 +64,10 @@
     "contact": "Əlaqə",
     "partnership": "Tərəfdaşlıq",
     "human": "İnsan dəstəyi",
-    "rights": "AzexAI Systems. Bütün hüquqlar qorunur.",
-    "methodology": "Sayt məqsədi və prinsipləri izah edir. Formlaları, çəkiləri, daxili dəyişənləri və yenidən qurulabilən hesablama qaydalarını açıqlamır."
+    "rights": "Bütün hüquqlar qorunur.",
+    "methodology": "Sayt məqsədi və prinsipləri izah edir. Formlaları, çəkiləri, daxili dəyişənləri və yenidən qurulabilən hesablama qaydalarını açıqlamır.",
+    "privacy": "Məxfilik",
+    "terms": "Şərtlər"
   },
   "home": {
     "kicker": "AzexAI Systems",
@@ -96,7 +102,8 @@
     "scienceTitle": "Elmi-texniki əsas",
     "scienceBody": "AzexAI VSM mürəkkəb obyektlərin analitik qiymətləndirilməsi üçün xüsusi elmi-texniki metodologiya üzərində qurulub: strukturlaşdırma, yoxlanıla bilmə, təkrarlana bilmə, sabit nəticə və nəzarət olunan interpretasiya.",
     "companyTitle": "AzexAI Systems",
-    "companyBody": "AzexAI Systems texnologiyanı yaradan şirkət və AzexAI VSM platformasının operatorudur. Şirkət məhsul, metodologiya, tədqiqat, etimad və institusional tətbiq istiqamətlərini vahid strateji çərçivədə inkişaf etdirir."
+    "companyBody": "AzexAI Systems texnologiyanı yaradan şirkət və AzexAI VSM platformasının operatorudur. Şirkət məhsul, metodologiya, tədqiqat, etimad və institusional tətbiq istiqamətlərini vahid strateji çərçivədə inkişaf etdirir.",
+    "trustStrip": "Etimad sübuta, nəzarət olunan hesablamaya, təkrarlanabilirliyə və nəticənin izahdan ayrılmasına əsaslanır."
   },
   "vsm": {
     "kicker": "AzexAI VSM",
@@ -236,7 +243,8 @@
     "kicker": "Tədqiqat",
     "headline": "Yoxlanıla bilən analitik intellekt üzrə tədqiqat.",
     "lede": "AzexAI Systems metodologiya, analitik qiymətləndirmə, etimad, institusional tətbiq və yoxlanıla bilən Sİ sahələrində tədqiqat və inkişaf işlərini davam etdirir.",
-    "empty": "Tədqiqat qeydləri, məqalələr və ictimai brifinqlər dərc üçün təsdiqləndikdən sonra burada yer alacaq."
+    "empty": "Tədqiqat qeydləri, məqalələr və ictimai brifinqlər dərc üçün təsdiqləndikdən sonra burada yer alacaq.",
+    "emptyKicker": "Dərc növbəsi"
   },
   "company": {
     "kicker": "Şirkət",
@@ -251,7 +259,8 @@
     "kicker": "Rəhbərlik və komanda",
     "headline": "Təsisçilər, rəhbərlik və əsas mütəxəssislər.",
     "lede": "Bu bölmədə şirkətin təsisçiləri, rəhbərliyi və əsas mütəxəssisləri təqdim olunur. Bio məlumatları yalnız təsdiqlənmiş ictimai məlumatlarla dərc edilir.",
-    "empty": "Rəhbərlik bioqrafiyaları yalnız ictimai təsdiqdən sonra burada dərc olunacaq."
+    "empty": "Rəhbərlik bioqrafiyaları yalnız ictimai təsdiqdən sonra burada dərc olunacaq.",
+    "emptyKicker": "İctimai qeyd"
   },
   "partnerships": {
     "kicker": "Tərəfdaşlıq",
@@ -271,7 +280,8 @@
     "kicker": "Analitika",
     "headline": "Tədqiqatlar, yeniliklər və analitik mövqe.",
     "lede": "Tədqiqatlar, şirkət yenilikləri, çıxışlar, tədbirlər və AzexAI Systems-in analitik mövqeyi.",
-    "empty": "Materiallar ictimai buraxılış üçün təsdiqləndikdən sonra burada yer alır. Şirkət adları, loqolar və ballar ayrıca hüquqi qərar olmadan dərc edilmir."
+    "empty": "Materiallar ictimai buraxılış üçün təsdiqləndikdən sonra burada yer alır. Şirkət adları, loqolar və ballar ayrıca hüquqi qərar olmadan dərc edilmir.",
+    "emptyKicker": "İctimai buraxılış"
   },
   "support": {
     "kicker": "Dəstək",
@@ -306,7 +316,10 @@
       "corporate": "Korporativ sorğu",
       "human": "İnsan dəstəyi",
       "support": "Dəstək"
-    }
+    },
+    "honeypot": "Bu sahəni boş buraxın",
+    "unavailable": "Forma hələ poçt qutusuna bağlı deyil. Birbaşa yazın:",
+    "asideIntents": "Məhsul · Platforma · Tərəfdaşlıq · Korporativ · İnsan dəstəyi"
   },
   "assistant": {
     "title": "Support Assistant",
@@ -316,12 +329,74 @@
     "human": "İnsan ilə danış",
     "disclaimer": "Cavablar yalnız ictimai sayt məlumatı ilə məhdudlaşır.",
     "fallback": "Şirkət, məhsullar, platformaya giriş, sifariş, naviqasiya və ümumi qaydalar barədə kömək edə bilərəm. Qiymətləndirmə apara, yeni analitik nəticə yarada və ya qorunan metodologiyanı müzakirə edə bilmərəm. İnsan dəstəyinə keçmək istəyirsiniz?",
-    "greeting": "AzexAI Systems, AzexAI VSM, məhsullar, giriş və naviqasiya barədə — yalnız ictimai məlumat əsasında — cavab verə bilərəm."
+    "greeting": "AzexAI Systems, AzexAI VSM, məhsullar, giriş və naviqasiya barədə — yalnız ictimai məlumat əsasında — cavab verə bilərəm.",
+    "close": "Bağla"
   },
   "notFound": {
     "kicker": "404",
     "headline": "Bu səhifə ictimai saytda yoxdur.",
     "body": "AzexAI Systems-ə qayıdın və ya AzexAI VSM-ə davam edin.",
     "home": "Ana səhifə"
+  },
+  "error": {
+    "kicker": "Xəta",
+    "headline": "Səhifə göstərilə bilmədi.",
+    "retry": "Yenidən cəhd et"
+  },
+  "privacy": {
+    "kicker": "Məxfilik",
+    "headline": "Bu ictimai sayt məlumatı necə emal edir.",
+    "lede": "Bu səhifə AzexAI Systems korporativ saytında toplanan məhdud məlumatı izah edir. AzexAI VSM ayrı platformadır və buraya daxil deyil.",
+    "disclaimer": "Bu xülasə ictimai şəffaflıq üçündür və hüquqi baxışdan keçiriləcək.",
+    "sections": [
+      {
+        "title": "Operator",
+        "body": "Saytı AzexAI Systems idarə edir. Əlaqə: contact@azexai.systems."
+      },
+      {
+        "title": "Nə toplanır",
+        "body": "Əlaqə formu ad, e-poçt, təşkilat, mövzu və mesaj toplaya bilər. Bu saytda istifadəçi hesabı yoxdur."
+      },
+      {
+        "title": "Mesajlar",
+        "body": "E-poçt provayderi qoşulanda sorğular dərc olunmuş ünvana göndərilir. O vaxta qədər birbaşa həmin ünvana yazın. Formaya parol və ya qorunan metodologiya göndərməyin."
+      },
+      {
+        "title": "Analitika",
+        "body": "Vercel Analytics və Speed Insights istifadə oluna bilər. Onlar cookieless ölçmədir, reklam profili deyil."
+      },
+      {
+        "title": "Saxlama",
+        "body": "Əlaqə mesajları yalnız cavab vermək və şirkəti idarə etmək üçün saxlanılır. Şəxsi məlumat satılmır."
+      }
+    ]
+  },
+  "terms": {
+    "kicker": "Şərtlər",
+    "headline": "İctimai saytın istifadə şərtləri.",
+    "lede": "Bu şərtlər azexai.systems üçün keçərlidir. AzexAI VSM-ə girişi tənzimləmir; platforma ayrı domendə işləyir.",
+    "disclaimer": "Bu şərtlər ictimai sayt üçün baza mətnidir və hüquqi baxışdan keçiriləcək.",
+    "sections": [
+      {
+        "title": "Yalnız ictimai məlumat",
+        "body": "Sayt məqsəd və prinsipləri izah edir. Formlaları, çəkiləri, daxili dəyişənləri və yenidən qurulabilən hesablama qaydalarını açıqlamır."
+      },
+      {
+        "title": "Qiymətləndirmə yoxdur",
+        "body": "Sayt qiymətləndirmə aparmır, analitik nəticə yaratmır və peşəkar məsləhət vermir. Məhsula giriş ayrıca soruşulur."
+      },
+      {
+        "title": "Əqli mülkiyyət",
+        "body": "AzexAI, AzexAI VSM, AzexAI Index, AzexAI Plus, IIT 3D, WhiteBox və əlaqəli nişanlar AzexAI Systems-ə məxsusdur. Qorunan metodologiyanı kopyalamaq və ya bərpa etmək olmaz."
+      },
+      {
+        "title": "Dəqiqlik",
+        "body": "Məzmun dəyişə bilər. Tədqiqat, rəhbərlik bioqrafiyaları, müştəri adları və ballar yalnız ictimai təsdiqdən sonra dərc olunur."
+      },
+      {
+        "title": "Əlaqə",
+        "body": "Bu şərtlər barədə suallar: contact@azexai.systems."
+      }
+    ]
   }
 }

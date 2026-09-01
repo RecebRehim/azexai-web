@@ -1,0 +1,13 @@
+---
+description: AzexAI Systems public website conventions
+globs: src/**/*.{ts,tsx}, messages/*.json
+alwaysApply: false
+---
+
+This repo is the AzexAI Systems corporate site, not the VSM platform.
+
+- Keep copy in `messages/az.json`, `ru.json`, `en.json` — no hardcoded UI strings
+- Do not invent leadership bios, customer logos, scores, Plus names, or methodology internals
+- Contact must not claim success unless email actually sent
+- Preserve ink / bronze / signal brand; no shadcn/SaaS restyle
+- Server Components by default; `"use client"` only for interactive islands

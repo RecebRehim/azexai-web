@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Exo_2, IBM_Plex_Mono, Manrope } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/layout/Header";
@@ -40,6 +42,12 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
   const title = t("title");
   const description = t("description");
+  const languages: Record<string, string> = {
+    "x-default": `${site.url}/${routing.defaultLocale}`,
+  };
+  for (const code of routing.locales) {
+    languages[code] = `${site.url}/${code}`;
+  }
 
   return {
     metadataBase: new URL(site.url),
@@ -48,12 +56,17 @@ export async function generateMetadata({
       template: `%s · ${t("siteName")}`,
     },
     description,
+    alternates: {
+      canonical: `${site.url}/${locale}`,
+      languages,
+    },
     openGraph: {
       title: t("ogTitle"),
       description: t("ogDescription"),
       siteName: t("siteName"),
       type: "website",
       locale,
+      url: `${site.url}/${locale}`,
     },
     twitter: {
       card: "summary_large_image",
@@ -61,6 +74,9 @@ export async function generateMetadata({
       description: t("ogDescription"),
     },
     robots: { index: true, follow: true },
+    other: {
+      "theme-color": "#0b1218",
+    },
   };
 }
 
@@ -77,6 +93,8 @@ export default async function LocaleLayout({
   }
   setRequestLocale(locale);
   const messages = await getMessages();
+  const t = await getTranslations("nav");
+  const meta = await getTranslations("meta");
 
   return (
     <html
@@ -93,18 +111,24 @@ export default async function LocaleLayout({
               name: site.name,
               url: site.url,
               email: site.email,
-              description:
-                "AzexAI Systems created and operates AzexAI VSM, a platform for verifiable analytical results.",
+              description: meta("description"),
             }),
           }}
         />
         <NextIntlClientProvider messages={messages}>
-          <div className="site-grain" />
+          <a href="#main" className="skip-link">
+            {t("skipToContent")}
+          </a>
+          <div className="site-grain" aria-hidden="true" />
           <Header />
-          <main className="relative pt-[4.6rem]">{children}</main>
+          <main id="main" className="relative z-10 pt-16" tabIndex={-1}>
+            {children}
+          </main>
           <Footer />
           <SupportAssistant />
         </NextIntlClientProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

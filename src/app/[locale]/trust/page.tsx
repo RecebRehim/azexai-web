@@ -1,6 +1,17 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { NumberedList, PageHero, Section } from "@/components/ui/PageHero";
 import { ButtonLink } from "@/components/ui/ButtonLink";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/trust", "trust");
+}
 
 export default async function TrustPage({
   params,
@@ -10,6 +21,7 @@ export default async function TrustPage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("trust");
+  const nav = await getTranslations("nav");
 
   return (
     <>
@@ -31,7 +43,7 @@ export default async function TrustPage({
             </div>
           </div>
           <ButtonLink href="/technology" variant="secondary" className="mt-12">
-            Technology
+            {nav("technology")}
           </ButtonLink>
         </Section>
       </section>

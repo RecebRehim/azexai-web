@@ -26,16 +26,19 @@
     "access": "Access AzexAI VSM",
     "menu": "Menu",
     "close": "Close",
-    "language": "Language"
+    "language": "Language",
+    "skipToContent": "Skip to content",
+    "primary": "Primary",
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "common": {
     "exploreVsm": "Explore AzexAI VSM",
-    "accessPlatform": "Access Platform",
+    "accessPlatform": "Access platform",
     "exploreIndex": "Explore AzexAI Index",
     "exploreInstitutional": "Explore Institutional Index",
     "explorePlus": "Explore AzexAI Plus",
     "aboutCompany": "About AzexAI Systems",
-    "readMore": "Continue",
     "primaryAction": "Access AzexAI VSM",
     "requestAccess": "Request platform access",
     "humanSupport": "Request human assistance",
@@ -43,7 +46,8 @@
     "generalContact": "General contact",
     "contactSupport": "Contact support",
     "protectedNote": "Public-safe information. Formulas, weights and internal methodology are not disclosed.",
-    "platformSeparate": "AzexAI VSM operates on a separate platform domain and is not merged into the corporate website."
+    "platformSeparate": "AzexAI VSM operates on a separate platform domain and is not merged into the corporate website.",
+    "continueInsights": "Open Insights"
   },
   "chain": {
     "uncertainty": "Uncertainty",
@@ -60,8 +64,10 @@
     "contact": "Contact",
     "partnership": "Partnerships",
     "human": "Human support",
-    "rights": "AzexAI Systems. All rights reserved.",
-    "methodology": "The website explains purpose and principles. It does not expose formulas, weights, internal variables or reconstructable calculation rules."
+    "rights": "All rights reserved.",
+    "methodology": "The website explains purpose and principles. It does not expose formulas, weights, internal variables or reconstructable calculation rules.",
+    "privacy": "Privacy",
+    "terms": "Terms"
   },
   "home": {
     "kicker": "AzexAI Systems",
@@ -96,7 +102,8 @@
     "scienceTitle": "Scientific and technical foundation",
     "scienceBody": "AzexAI VSM is built on a proprietary scientific and technical methodology centered on structure, verifiability, reproducibility, fixed results and controlled interpretation.",
     "companyTitle": "AzexAI Systems",
-    "companyBody": "AzexAI Systems is the creator of the technology and operator of the AzexAI VSM platform. The company develops the product, methodology, research, trust framework and institutional applications within one strategic system."
+    "companyBody": "AzexAI Systems is the creator of the technology and operator of the AzexAI VSM platform. The company develops the product, methodology, research, trust framework and institutional applications within one strategic system.",
+    "trustStrip": "Trust is built on evidence, controlled calculation, reproducibility, and the separation of result from explanation."
   },
   "vsm": {
     "kicker": "AzexAI VSM",
@@ -236,7 +243,8 @@
     "kicker": "Research",
     "headline": "Research in verifiable analytical intelligence.",
     "lede": "AzexAI Systems advances research in assessment methodology, analytical systems, trust, institutional applications and verifiable artificial intelligence.",
-    "empty": "Research notes, papers and public briefings will appear here when they are cleared for publication."
+    "empty": "Research notes, papers and public briefings will appear here when they are cleared for publication.",
+    "emptyKicker": "Publication queue"
   },
   "company": {
     "kicker": "Company",
@@ -251,7 +259,8 @@
     "kicker": "Leadership & team",
     "headline": "Founders, leadership and key specialists.",
     "lede": "This section presents the founders, leadership and key specialists of the company. Biographies are published only from confirmed public information.",
-    "empty": "Leadership biographies will be published here only after public confirmation."
+    "empty": "Leadership biographies will be published here only after public confirmation.",
+    "emptyKicker": "Public record"
   },
   "partnerships": {
     "kicker": "Partnerships",
@@ -271,7 +280,8 @@
     "kicker": "Insights",
     "headline": "Research, updates and analytical position.",
     "lede": "Research, company updates, talks, events and the analytical perspective of AzexAI Systems.",
-    "empty": "Insights appear here when they are cleared for public release. Company names, logos and scores are not published without a separate legal decision."
+    "empty": "Insights appear here when they are cleared for public release. Company names, logos and scores are not published without a separate legal decision.",
+    "emptyKicker": "Public release"
   },
   "support": {
     "kicker": "Support",
@@ -306,7 +316,10 @@
       "corporate": "Corporate inquiry",
       "human": "Request human assistance",
       "support": "Contact support"
-    }
+    },
+    "honeypot": "Leave this field empty",
+    "unavailable": "The form is not connected to an inbox yet. Write directly to",
+    "asideIntents": "Product · Platform · Partnership · Corporate · Human support"
   },
   "assistant": {
     "title": "Support Assistant",
@@ -316,12 +329,74 @@
     "human": "Talk to a person",
     "disclaimer": "Answers are limited to public website information.",
     "fallback": "I can help with the company, products, platform access, orders, navigation and general rules. I cannot perform assessments, create a new analytical result, or discuss protected methodology. Would you like to reach human support?",
-    "greeting": "I can answer questions about AzexAI Systems, AzexAI VSM, products, access and navigation — using only public information."
+    "greeting": "I can answer questions about AzexAI Systems, AzexAI VSM, products, access and navigation — using only public information.",
+    "close": "Close"
   },
   "notFound": {
     "kicker": "404",
     "headline": "This page is not part of the public site.",
     "body": "Return to AzexAI Systems or continue to AzexAI VSM.",
     "home": "Return home"
+  },
+  "error": {
+    "kicker": "Error",
+    "headline": "The page could not be rendered.",
+    "retry": "Retry"
+  },
+  "privacy": {
+    "kicker": "Privacy",
+    "headline": "How this public website handles information.",
+    "lede": "This page describes the limited data collected on the AzexAI Systems corporate website. AzexAI VSM is a separate platform and is not covered here.",
+    "disclaimer": "This summary is provided for public transparency and is pending review by legal counsel.",
+    "sections": [
+      {
+        "title": "Operator",
+        "body": "The website is operated by AzexAI Systems. Contact: contact@azexai.systems."
+      },
+      {
+        "title": "What we collect",
+        "body": "The contact form may collect name, email, organization, subject and message. There are no user accounts on this website."
+      },
+      {
+        "title": "How messages are handled",
+        "body": "When an email provider is connected, inquiries are sent to the published contact address. Until then, write directly to that address. Do not send passwords, credentials or protected methodology through the form."
+      },
+      {
+        "title": "Analytics",
+        "body": "Vercel Analytics and Speed Insights may be used. They are cookieless audience and performance measurements, not advertising profiles."
+      },
+      {
+        "title": "Retention",
+        "body": "Contact messages are kept only as long as needed to respond and operate the company. We do not sell personal data."
+      }
+    ]
+  },
+  "terms": {
+    "kicker": "Terms",
+    "headline": "Terms of use for the public website.",
+    "lede": "These terms apply to azexai.systems. They do not govern access to AzexAI VSM, which operates on a separate platform domain.",
+    "disclaimer": "These terms are a public-site baseline and are pending review by legal counsel.",
+    "sections": [
+      {
+        "title": "Public information only",
+        "body": "This website explains purpose and principles. It does not disclose formulas, weights, internal variables or reconstructable calculation rules."
+      },
+      {
+        "title": "No assessments here",
+        "body": "The site does not perform assessments, create analytical results, or provide professional advice. Product access is requested separately."
+      },
+      {
+        "title": "Intellectual property",
+        "body": "AzexAI, AzexAI VSM, AzexAI Index, AzexAI Plus, IIT 3D, WhiteBox and related marks are used by AzexAI Systems. You may not copy, reverse-engineer or republish protected methodology."
+      },
+      {
+        "title": "Accuracy",
+        "body": "Content may change. Research, leadership biographies, customer names and scores appear only after public clearance."
+      },
+      {
+        "title": "Contact",
+        "body": "Questions about these terms: contact@azexai.systems."
+      }
+    ]
   }
 }

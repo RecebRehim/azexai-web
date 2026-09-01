@@ -1,7 +1,18 @@
+import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHero, Section } from "@/components/ui/PageHero";
 import { AccessButton } from "@/components/ui/ButtonLink";
 import { plusCodes } from "@/lib/site";
+import { pageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata(locale, "/products/plus", "plus");
+}
 
 export default async function PlusPage({
   params,
@@ -21,7 +32,9 @@ export default async function PlusPage({
         <div className="mt-12 grid grid-cols-2 gap-px bg-line sm:grid-cols-4 md:grid-cols-7">
           {plusCodes.map((code) => (
             <article key={code} className="bg-ink px-4 py-10 text-center">
-              <p className="font-mono text-lg tracking-[0.14em] text-bronze">{code}</p>
+              <p className="font-mono text-lg tracking-[0.14em] text-bronze" translate="no">
+                {code}
+              </p>
             </article>
           ))}
         </div>
