@@ -1,9 +1,9 @@
 import { ImageResponse } from "next/og";
 
-export const size = { width: 32, height: 32 };
+export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
-export default function Icon() {
+export default function AppleIcon() {
   return new ImageResponse(
     (
       <div
@@ -16,23 +16,23 @@ export default function Icon() {
           justifyContent: "center",
         }}
       >
-        <svg width="28" height="28" viewBox="0 0 120 120" fill="none">
+        <svg width="150" height="150" viewBox="0 0 120 120" fill="none">
           <path
             d="M60 14 L104 40 L104 80 L60 106 L16 80 L16 40 Z"
             stroke="#2b7fd4"
-            strokeWidth="5"
-            strokeLinejoin="round"
-          />
-          <path d="M16 40 L60 66 L104 40" stroke="#2b7fd4" strokeWidth="5" />
-          <path d="M60 66 L60 106" stroke="#2b7fd4" strokeWidth="5" />
-          <path
-            d="M60 38 L82 51 L82 72 L60 85 L38 72 L38 51 Z"
-            stroke="#e4c57a"
             strokeWidth="4"
             strokeLinejoin="round"
           />
-          <path d="M38 51 L60 64 L82 51" stroke="#e4c57a" strokeWidth="4" />
-          <path d="M60 64 L60 85" stroke="#e4c57a" strokeWidth="4" />
+          <path d="M16 40 L60 66 L104 40" stroke="#2b7fd4" strokeWidth="4" />
+          <path d="M60 66 L60 106" stroke="#2b7fd4" strokeWidth="4" />
+          <path
+            d="M60 38 L82 51 L82 72 L60 85 L38 72 L38 51 Z"
+            stroke="#e4c57a"
+            strokeWidth="3.2"
+            strokeLinejoin="round"
+          />
+          <path d="M38 51 L60 64 L82 51" stroke="#e4c57a" strokeWidth="3.2" />
+          <path d="M60 64 L60 85" stroke="#e4c57a" strokeWidth="3.2" />
         </svg>
       </div>
     ),
