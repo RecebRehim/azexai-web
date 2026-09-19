@@ -6,32 +6,35 @@ function publicEnv(name: string, fallback = "") {
 const vercelUrl = process.env.VERCEL_URL?.trim();
 
 export const site = {
-  name: "AzexAI Systems",
-  platformName: "AzexAI VSM",
+  name: "AzevsmAI Systems",
+  platformName: "AzevsmAI",
   platformUrl: publicEnv("NEXT_PUBLIC_VSM_URL"),
-  email: publicEnv("NEXT_PUBLIC_CONTACT_EMAIL", "contact@azexai.systems"),
+  email: publicEnv("NEXT_PUBLIC_CONTACT_EMAIL", "contact@azevsmai.systems"),
   url: publicEnv(
     "NEXT_PUBLIC_SITE_URL",
-    vercelUrl ? `https://${vercelUrl}` : "https://azexai.systems",
+    vercelUrl ? `https://${vercelUrl}` : "https://azevsmai.systems",
   ),
 } as const;
 
-export const plusCodes = [
-  "PB",
-  "EI",
-  "CF",
-  "CR",
-  "GOV+",
-  "IP+",
-  "ESG+",
+export const plusServices = [
+  { code: "PB", label: "Büdcə təhlili" },
+  { code: "EI", label: "İnvestisiya təhlili" },
+  { code: "CF", label: "Maliyyə dayanıqlığı" },
+  { code: "CR", label: "İnstitusional risk konturları" },
+  { code: "GOV+", label: "İdarəetmənin dərinləşdirilmiş təhlili" },
+  { code: "IP+", label: "Məhsul hüquqlarının bütövlüyü" },
+  { code: "ESG+", label: "Dayanıqlılıq və xarici təsir" },
 ] as const;
 
+export const plusCodes = plusServices.map((service) => service.code);
+
 export const processChain = [
-  "uncertainty",
-  "evidence",
-  "structure",
-  "result",
-  "understanding",
+  "Evidence",
+  "Validation",
+  "Structured variables",
+  "Controlled assessment",
+  "Interpretation",
+  "Traceable result",
 ] as const;
 
 export const intentKeys = [
@@ -51,26 +54,20 @@ export const productNav = [
   { href: "/products/index", key: "index" },
   { href: "/products/institutional-index", key: "institutional" },
   { href: "/products/plus", key: "plus" },
-  { href: "/iit-3d", key: "iit3d" },
 ] as const;
 
 export const companyNav = [
   { href: "/company", key: "company" },
-  { href: "/company/leadership", key: "leadership" },
-  { href: "/company/partnerships", key: "partnerships" },
-  { href: "/research", key: "research" },
-  { href: "/insights", key: "insights" },
-  { href: "/support", key: "support" },
 ] as const;
 
 export const footerGroups = [
   {
     key: "platform",
     items: [
-      { href: "/vsm", key: "vsm" },
-      { href: "/iit-3d", key: "iit3d" },
-      { href: "/trust", key: "trust" },
+      { href: "/platform", key: "platform" },
       { href: "/technology", key: "technology" },
+      { href: "/white-box", key: "whiteBox" },
+      { href: "/trust", key: "trust" },
     ],
   },
   {
@@ -84,18 +81,11 @@ export const footerGroups = [
   },
   {
     key: "company",
-    items: [
-      { href: "/company", key: "company" },
-      { href: "/company/leadership", key: "leadership" },
-      { href: "/company/partnerships", key: "partnerships" },
-      { href: "/research", key: "research" },
-      { href: "/insights", key: "insights" },
-    ],
+    items: [{ href: "/company", key: "company" }],
   },
   {
     key: "contact",
     items: [
-      { href: "/support", key: "support" },
       { href: "/contact", key: "contact" },
       { href: "/contact?intent=partnership", key: "partnership" },
       { href: "/contact?intent=human", key: "human" },
@@ -105,21 +95,19 @@ export const footerGroups = [
 
 export const sitemapPaths = [
   "",
-  "/vsm",
+  "/platform",
   "/products",
   "/products/index",
   "/products/institutional-index",
   "/products/plus",
   "/technology",
-  "/iit-3d",
+  "/white-box",
   "/trust",
-  "/research",
   "/company",
-  "/company/leadership",
-  "/company/partnerships",
-  "/insights",
-  "/support",
   "/contact",
   "/privacy",
   "/terms",
+  "/cookies",
+  "/security",
+  "/accessibility",
 ] as const;
